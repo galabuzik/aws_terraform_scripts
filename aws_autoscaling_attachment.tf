@@ -1,4 +1,4 @@
-/*resource "aws_autoscaling_attachment" "webservers_asg_attachment" {
+resource "aws_autoscaling_attachment" "webservers_asg_attachment" {
   autoscaling_group_name = aws_autoscaling_group.webservers.id
   elb                    = aws_elb.webservers_loadbalancer.id
 }
@@ -46,4 +46,3 @@ resource "aws_elb" "webservers_loadbalancer" {
   }
 
 }
-*/
