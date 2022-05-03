@@ -1,4 +1,4 @@
-/*data "aws_ami" "amazon_linux" {
+data "aws_ami" "amazon_linux" {
   most_recent = true
 
   filter {
@@ -35,4 +35,3 @@ resource "aws_autoscaling_group" "nginxserver" {
     create_before_destroy = true
   }
 }
-*/
