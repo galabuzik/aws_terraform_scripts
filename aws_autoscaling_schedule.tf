@@ -1,4 +1,4 @@
-/*resource "aws_autoscaling_group" "batchprocess_server" {
+resource "aws_autoscaling_group" "batchprocess_server" {
   availability_zones        = ["us-east-2a"]
   name                      = "batchprocess_server_asg"
   max_size                  = 4
@@ -29,4 +29,3 @@ resource "aws_launch_template" "batchprocess_servers" {
   image_id      = "ami-0c096ca5a3fbca310"
   instance_type = "t2.micro"
 }
-*/
