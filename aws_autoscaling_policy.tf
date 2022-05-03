@@ -1,4 +1,4 @@
-/*resource "aws_autoscaling_policy" "simple_scaling" {
+resource "aws_autoscaling_policy" "simple_scaling" {
   name                   = "simple_scaling_policy"
   scaling_adjustment     = 3
   policy_type            = "SimpleScaling"
@@ -27,4 +27,3 @@ resource "aws_launch_configuration" "appserver" {
     create_before_destroy = true
   }
 }
-*/
