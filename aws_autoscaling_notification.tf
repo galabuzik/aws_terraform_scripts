@@ -1,4 +1,4 @@
-/*resource "aws_autoscaling_notification" "webserver_asg_notifications" {
+resource "aws_autoscaling_notification" "webserver_asg_notifications" {
   group_names = [
     aws_autoscaling_group.webserver_asg.name,
   ]
@@ -35,4 +35,3 @@ resource "aws_launch_template" "webserver" {
   image_id      = "ami-0c096ca5a3fbca310"
   instance_type = "t2.micro"
 }
-*/
