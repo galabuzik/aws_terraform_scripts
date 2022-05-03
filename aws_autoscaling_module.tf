@@ -1,4 +1,4 @@
-/*module "asg" {
+module "asg" {
   source = "terraform-aws-modules/autoscaling/aws"
   
   
@@ -13,4 +13,3 @@
   max_size           = 3
   min_size           = 1
   }
-  */
