@@ -1,4 +1,4 @@
-/*resource "aws_launch_template" "webservers" {
+resource "aws_launch_template" "webservers" {
   name_prefix   = "webservers"
   image_id      = "ami-0c096ca5a3fbca310"
   instance_type = "t2.micro"
@@ -15,4 +15,3 @@ resource "aws_autoscaling_group" "webservers" {
     version = "$Latest"
   }
 }
-*/
